@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    flex: 1;
+    background: green;
+    padding: 1vh;
+    padding-left: 2vw;
+    color: white;
+}
+
+.container {
+    flex: 8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer button {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+    background: maroon;
+    margin: 10px;
+}
+
+li > div {
+    display: flex;
+    gap: 10px;
+}
+
+.description {
+    width: 30vw;
+}
