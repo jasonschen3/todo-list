@@ -19,6 +19,7 @@ body {
 
 .container {
     flex: 8;
+    min-width: 800px;
 }
 
 .footer {
